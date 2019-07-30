@@ -8,6 +8,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class SecondActivity : AppCompatActivity() {
 
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
+        //privet2
         when (item.itemId) {
             R.id.navigation_home -> {
                 message.setText(R.string.title_home)
